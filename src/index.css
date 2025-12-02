@@ -1,0 +1,60 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+body {
+  background-color: #022B3A;
+  color: #BFDBF7;
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Georgia', serif;
+}
+
+.btn-primary {
+  background-color: #1F7A8C;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 9999px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 20px rgba(31, 122, 140, 0.15);
+}
+
+.btn-primary:hover {
+  background-color: #2E8BA0;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 32px rgba(2, 43, 58, 0.12);
+}
+
+.btn-secondary {
+  background-color: #BFDBF7;
+  color: #022B3A;
+  padding: 0.75rem 1.5rem;
+  border-radius: 9999px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 20px rgba(31, 122, 140, 0.15);
+}
+
+.btn-secondary:hover {
+  background-color: #D4E4F7;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 32px rgba(2, 43, 58, 0.12);
+}
+
+.card {
+  background-color: #011F2A;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  box-shadow: 0 8px 32px rgba(2, 43, 58, 0.12);
+  border: 1px solid rgba(31, 122, 140, 0.2);
+}
+
+.ocean-gradient {
+  background: linear-gradient(135deg, #022B3A 0%, #1F7A8C 100%);
+}
+
+.wave-gradient {
+  background: linear-gradient(135deg, #1F7A8C 0%, #2E8BA0 100%);
+}
